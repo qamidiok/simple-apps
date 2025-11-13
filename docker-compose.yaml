@@ -1,7 +1,7 @@
 services:
   simple-apps:
     container_name: ct-simpleapps-prod
-    image: qamidiok/img-simpleapps
+    image: qamidiok/img-simpleapps:v1-stable
     ports:
     - "10000:3000"
     restart: always
